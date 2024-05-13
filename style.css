@@ -1,0 +1,96 @@
+.bgimage {
+    height: 100vh;
+    background: url('/home/rguktrkvalley/Downloads/webs/img/girl1.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+  }
+/* text css above hero image*/
+.hero_title {
+    font-size: 3rem;
+}
+.hero_desc {
+    font-size: 1.5rem;
+}
+
+.hero-text {
+    position: absolute; /* Positions the element absolutely */
+    bottom: 0; /* Places the element at the bottom of its containing element */
+    left: 0; /* Places the element at the left of its containing element */
+    padding: 20px; /* Adds some padding to the text for better readability */
+    color: rgb(141, 212, 59); /* Sets the text color to a shade of green */
+}
+
+.nav{
+
+    
+    color:rgb(141, 212, 59);}
+ .nav.nav-link {
+        color: rgb(141, 212, 59);
+    }
+.hero_title{
+        color:rgb(141, 212, 59); /* Set the color to aqua */
+      }
+      .hero_desc{
+        color: rgb(141, 212, 59)); /* Set the color to aqua */
+      }
+      .imageAboutPage {
+        width: 100%;
+    }
+/* skillsection css */
+.skillText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.skillIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.skillText:hover {
+    border: 1px solid #008000;
+}
+
+
+.bgimages {
+    height:100vh;
+    background: url('/home/rguktrkvalley/Downloads/webs/img/skills.jpg');
+    background-size:cover;
+    position:relative;
+}
+.projectContent .card {
+    height: 100%; /* Set a fixed height for all project cards */
+}
+
+.projectContent .card-img-top {
+    height: 200px; /* Adjust the height of the project images */
+    object-fit: cover; /* Ensure images maintain their aspect ratio */
+}
+.projectContent .card-img-top {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* Adjust the fit mode as per your preference */
+}
+
